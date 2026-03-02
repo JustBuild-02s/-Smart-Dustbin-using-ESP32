@@ -1,0 +1,45 @@
+🔌 Pin Connections
+
+📡 Ultrasonic Sensor (HC-SR04)
+| Ultrasonic Pin | ESP32 Pin |
+| -------------- | --------- |
+| VCC            | 5V        |
+| GND            | GND       |
+| TRIG           | GPIO 25   |
+| ECHO           | GPIO 32 ⚠ |
+ ⚠ Important:
+Use a voltage divider (e.g., 1kΩ and 2kΩ resistors) between ECHO and GPIO 32 because ESP32 works on 3.3V logic.
+
+💧 Moisture Sensor
+| Moisture Pin | ESP32 Pin |
+| ------------ | --------- |
+| VCC          | 3.3V      |
+| GND          | GND       |
+| AO           | GPIO 34   |
+
+⚙️ Servo Motor
+| Servo Wire    | ESP32 Pin                 |
+| ------------- | ------------------------- |
+| Red           | 5V (External Recommended) |
+| Brown/Black   | GND                       |
+
+🟠 Dry LED
+| LED Pin     | ESP32 Pin             |
+| ----------- | --------------------- |
+| Anode (+)   | GPIO 2                |
+| Cathode (-) | GND via 220Ω resistor |
+
+🟢 Wet LED
+| LED Pin     | ESP32 Pin             |
+| ----------- | --------------------- |
+| Anode (+)   | GPIO 4                |
+| Cathode (-) | GND via 220Ω resistor |
+
+
+🔔 Buzzer
+| Buzzer Pin | ESP32 Pin |
+| ---------- | --------- |
+| Positive   | GPIO 5    |
+| Negative   | GND       |
+
+| Yellow/Orange | GPIO 13                   |
