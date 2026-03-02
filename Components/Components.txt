@@ -1,0 +1,21 @@
+🧰 Components Required
+
+🔹 ESP32 Development Board
+
+🔹 Ultrasonic Sensor (HC-SR04)
+
+🔹 Soil Moisture Sensor (Analog Output)
+
+🔹 Servo Motor (SG90 or similar)
+
+🔹 2 LEDs (Orange & Green)
+
+🔹 2 × 220Ω Resistors (for LEDs)
+
+🔹 Buzzer
+
+🔹 Breadboard
+
+🔹 Jumper Wires
+
+🔹 External 5V supply (recommended for servo)
